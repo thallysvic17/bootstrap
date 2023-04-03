@@ -1,0 +1,39 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png);
+}
+
+.container{
+    background-color: none;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.container > h1{
+    color: #fff;;
+}
+
+.nav-iten > a{
+    color: #fff;
+    font-size: 20px;
+}
+.card-header{
+    text-align: center;
+}
+
+
+@media screen and (max-width:650px){
+    .col-lg-4{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:820px){
+    .col-lg-4{
+        margin-top: 25px;
+        
+    }
+    
+}
